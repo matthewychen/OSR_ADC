@@ -1,0 +1,124 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d1f52a2b-fd2b-4c73-87bd-631b47d246f6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 201.295 27.305)
+		(size 14.605 41.91)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ea25ad4-4d9d-427d-bbb7-32ec7814532f")
+		(property "Sheetname" "FPGA IO"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_io.kicad_sch"
+			(at 201.295 69.7996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MixedSignal"
+				(path "/d1f52a2b-fd2b-4c73-87bd-631b47d246f6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.885 27.94)
+		(size 14.605 41.91)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f33bc0a-f130-4710-a7cc-ebfc14ebba15")
+		(property "Sheetname" "Analog Frontend"
+			(at 221.996 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afe.kicad_sch"
+			(at 222.885 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MixedSignal"
+				(path "/d1f52a2b-fd2b-4c73-87bd-631b47d246f6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 27.305)
+		(size 14.605 41.91)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47e9d829-04f8-4153-a527-9ef0eda2551a")
+		(property "Sheetname" "Power and External IO"
+			(at 177.292 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pio.kicad_sch"
+			(at 179.705 69.7996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MixedSignal"
+				(path "/d1f52a2b-fd2b-4c73-87bd-631b47d246f6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
