@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+py/results/
+
+# KiCad auto-backups and locks
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+
+# Downloaded part libraries (UltraLibrarian etc.)
+ul_*/
+*.zip
+
+# Vivado: regenerable project directory. When RTL goes under version
+# control, commit sources/constraints/.xci + a project tcl, not this tree.
+MixedSignal_Vivado/
+*.jou
+vivado*.log
