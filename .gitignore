@@ -11,6 +11,7 @@ fp-info-cache
 
 # Downloaded part libraries (UltraLibrarian etc.)
 ul_*/
+
 *.zip
 
 # Vivado: regenerable project directory. When RTL goes under version
@@ -18,3 +19,11 @@ ul_*/
 MixedSignal_Vivado/
 *.jou
 vivado*.log
+
+# Fab exports: regenerable via Fabrication Toolkit (production/) or the
+# KiCad plot dialog (loose gerbers); order from production/, don't track
+MixedSignal/production/
+MixedSignal/*.gbr
+MixedSignal/*.drl
+MixedSignal/*-pos.csv
+MixedSignal/*.gbrjob
